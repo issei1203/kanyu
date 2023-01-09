@@ -1,0 +1,15 @@
+{
+  "name": "kanyu",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "画面を表示する",
+    "default_popup": "main.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"]
+    }
+  ]
+}

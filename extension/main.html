@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+    body {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    vertical-align:middle;
+    }
+    </style>
+</head>
+<body>
+<div class="column is-three-quarters" id="input">
+    <textarea class="textarea has-fixed-size" id="proofreadTarget" name="text" rows="10" placeholder="校正したい文章を入力してください"></textarea>
+</div>
+<p class="subtitle is-5 mx-3 my-1">結果</p>
+<div class="column is-three-quarters mx-3" id="result"></div>
+<script src="popup.js"></script>
+</body>
+</html>
